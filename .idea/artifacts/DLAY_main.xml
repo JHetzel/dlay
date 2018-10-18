@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="DLAY_main">
+    <output-path>$PROJECT_DIR$/out/artifacts/DLAY_main</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="de.juliushetzel.DlayApp" />
+        <option name="description" value="Calculate delay values based on BPM" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="title" value="Dlay" />
+        <option name="vendor" value="juliushetzel" />
+        <option name="version" value="1.0.0" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="DLAY_main.jar">
+        <element id="module-output" name="DLAY_main" />
+      </element>
+      <element id="library" level="project" name="Gradle: org.glassfish:javax.json:1.1.2" />
+      <element id="library" level="project" name="Gradle: org.jetbrains:annotations:13.0" />
+      <element id="library" level="project" name="Gradle: no.tornado:tornadofx:1.7.17" />
+    </root>
+  </artifact>
+</component>
